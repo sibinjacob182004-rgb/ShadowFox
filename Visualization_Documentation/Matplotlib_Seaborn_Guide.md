@@ -38,7 +38,27 @@ plt.title("Simple Line Plot")
 plt.show()
 
   
-- Bar Chart
+### Bar Chart (Matplotlib)
+
+**Description:**  
+A bar chart represents data using rectangular bars where the height of each bar corresponds to its value.
+
+**Use Case:**  
+Comparing quantities such as sales across different products or marks scored by students.
+
+**Code Example:**
+```python
+import matplotlib.pyplot as plt
+
+categories = ["A", "B", "C", "D"]
+values = [10, 15, 7, 12]
+
+plt.bar(categories, values)
+plt.xlabel("Categories")
+plt.ylabel("Values")
+plt.title("Simple Bar Chart")
+plt.show()
+
 - Histogram
 - Scatter Plot
 - Pie Chart
