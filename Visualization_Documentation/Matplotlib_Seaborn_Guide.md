@@ -16,7 +16,28 @@ In this documentation, we explore two popular Python visualization libraries:
 Matplotlib is a widely used Python library for creating static, animated, and interactive visualizations. It provides complete control over plots and is suitable for both simple and complex visualizations.
 
 ### Common Graph Types in Matplotlib
-- Line Plot
+### Line Plot (Matplotlib)
+
+**Description:**  
+A line plot is used to show trends over time or continuous data.
+
+**Use Case:**  
+Tracking sales growth, temperature changes, or performance trends.
+
+**Code Example:**
+```python
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+
+plt.plot(x, y)
+plt.xlabel("X values")
+plt.ylabel("Y values")
+plt.title("Simple Line Plot")
+plt.show()
+
+  
 - Bar Chart
 - Histogram
 - Scatter Plot
