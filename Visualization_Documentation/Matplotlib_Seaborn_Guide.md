@@ -249,10 +249,13 @@ plt.show()
 
 ## Comparison: Matplotlib vs Seaborn
 
+## Comparison: Matplotlib vs Seaborn
+
 | Feature | Matplotlib | Seaborn |
-|------|-----------|---------|
-| Ease of Use | Moderate | Easy |
-| Customization | High | Moderate |
-| Default Styling | Basic | Attractive |
-| Statistical Plots | Limited | Strong |
-| Best Use Case | Detailed control | Quick analysis |
+|--------|------------|---------|
+| Ease of Use | Moderate – requires more code | Easy – concise syntax |
+| Customization | Very high | Moderate |
+| Default Styling | Basic | Clean and attractive |
+| Statistical Plots | Limited | Strong support |
+| Data Handling | Works with NumPy & Pandas | Excellent Pandas integration |
+| Best Use Case | Fine-grained control over plots | Exploratory Data Analysis |
