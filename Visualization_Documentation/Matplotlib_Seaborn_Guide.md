@@ -108,10 +108,6 @@ plt.show()
 ```
 
 - Pie Chart
-
----
-
-## Seaborn
 ### Pie Chart (Matplotlib)
 
 **Description:**  
@@ -132,6 +128,7 @@ plt.title("Programming Language Usage")
 plt.show()
 ```
 
+## Seaborn
 ### Overview
 Seaborn is a high-level visualization library built on top of Matplotlib. It provides attractive default styles and is mainly used for statistical data visualization.
 
