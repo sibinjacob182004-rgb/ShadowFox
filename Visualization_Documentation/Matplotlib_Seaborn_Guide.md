@@ -61,8 +61,8 @@ plt.title("Simple Bar Chart")
 plt.show()
 ```
 
-- Histogram
-  ### Histogram (Matplotlib)
+
+### Histogram (Matplotlib)
 
 **Description:**  
 A histogram shows the distribution of numerical data by grouping values into bins.
@@ -84,8 +84,7 @@ plt.title("Simple Histogram")
 plt.show()
 ```
 
-- Scatter Plot
-  ### Scatter Plot (Matplotlib)
+### Scatter Plot (Matplotlib)
 
 **Description:**  
 A scatter plot displays the relationship between two numerical variables using points.
@@ -107,7 +106,7 @@ plt.title("Simple Scatter Plot")
 plt.show()
 ```
 
-- Pie Chart
+
 ### Pie Chart (Matplotlib)
 
 **Description:**  
@@ -135,8 +134,8 @@ Seaborn is a Python data visualization library built on top of Matplotlib. It pr
 Seaborn works seamlessly with Pandas DataFrames and is widely used for exploratory data analysis due to its clean syntax and default styling.
 
 ### Common Graph Types in Seaborn
-- Line Plot
-  ### Line Plot (Seaborn)
+
+### Line Plot (Seaborn)
 
 **Description:**  
 A Seaborn line plot is used to visualize trends over time or ordered data with better default styling than Matplotlib.
@@ -156,8 +155,8 @@ sns.lineplot(x=x, y=y)
 plt.title("Simple Line Plot using Seaborn")
 plt.show()
 ```
-- Bar Plot
-  ### Bar Plot (Seaborn)
+
+### Bar Plot (Seaborn)
 
 **Description:**  
 A bar plot in Seaborn shows the relationship between a categorical variable and a numerical variable.
@@ -178,8 +177,8 @@ plt.title("Simple Bar Plot using Seaborn")
 plt.show()
 ```
 
-- Count Plot
-  ### Count Plot (Seaborn)
+
+### Count Plot (Seaborn)
 
 **Description:**  
 A count plot displays the number of occurrences of each categorical value in a dataset.
@@ -201,8 +200,8 @@ plt.title("Simple Count Plot using Seaborn")
 plt.show()
 ```
 
-- Box Plot
-  ### Box Plot (Seaborn)
+
+### Box Plot (Seaborn)
 
 **Description:**  
 A box plot displays the distribution of numerical data using quartiles and highlights outliers.
@@ -223,7 +222,7 @@ plt.title("Simple Box Plot using Seaborn")
 plt.show()
 ```
 
-- Heatmap
+
 ### Heatmap (Seaborn)
 
 **Description:**  
