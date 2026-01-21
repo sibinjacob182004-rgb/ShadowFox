@@ -130,14 +130,120 @@ plt.show()
 
 ## Seaborn
 ### Overview
-Seaborn is a high-level visualization library built on top of Matplotlib. It provides attractive default styles and is mainly used for statistical data visualization.
+Seaborn is a Python data visualization library built on top of Matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+
+Seaborn works seamlessly with Pandas DataFrames and is widely used for exploratory data analysis due to its clean syntax and default styling.
 
 ### Common Graph Types in Seaborn
 - Line Plot
+  ### Line Plot (Seaborn)
+
+**Description:**  
+A Seaborn line plot is used to visualize trends over time or ordered data with better default styling than Matplotlib.
+
+**Use Case:**  
+Analyzing trends such as monthly sales or temperature changes.
+
+**Code Example:**
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [5, 10, 15, 20, 25]
+
+sns.lineplot(x=x, y=y)
+plt.title("Simple Line Plot using Seaborn")
+plt.show()
+```
 - Bar Plot
+  ### Bar Plot (Seaborn)
+
+**Description:**  
+A bar plot in Seaborn shows the relationship between a categorical variable and a numerical variable.
+
+**Use Case:**  
+Comparing average values such as average marks per subject or average sales per category.
+
+**Code Example:**
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+categories = ["A", "B", "C", "D"]
+values = [10, 15, 7, 12]
+
+sns.barplot(x=categories, y=values)
+plt.title("Simple Bar Plot using Seaborn")
+plt.show()
+```
+
 - Count Plot
+  ### Count Plot (Seaborn)
+
+**Description:**  
+A count plot displays the number of occurrences of each categorical value in a dataset.
+
+**Use Case:**  
+Counting the number of students in each department or number of items in each category.
+
+**Code Example:**
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+data = ["A", "B", "A", "C", "B", "A", "D", "C"]
+
+sns.countplot(x=data)
+plt.xlabel("Category")
+plt.ylabel("Count")
+plt.title("Simple Count Plot using Seaborn")
+plt.show()
+```
+
 - Box Plot
+  ### Box Plot (Seaborn)
+
+**Description:**  
+A box plot displays the distribution of numerical data using quartiles and highlights outliers.
+
+**Use Case:**  
+Analyzing exam scores, salary distributions, or comparing numerical values across categories.
+
+**Code Example:**
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+data = [45, 50, 55, 60, 65, 70, 80, 90, 100]
+
+sns.boxplot(y=data)
+plt.ylabel("Values")
+plt.title("Simple Box Plot using Seaborn")
+plt.show()
+```
+
 - Heatmap
+### Heatmap (Seaborn)
+
+**Description:**  
+A heatmap visualizes data in a matrix format where colors represent the magnitude of values.
+
+**Use Case:**  
+Identifying correlations between numerical variables or visualizing patterns in tabular data.
+
+**Code Example:**
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+
+data = np.random.rand(5, 5)
+
+sns.heatmap(data, annot=True)
+plt.title("Simple Heatmap using Seaborn")
+plt.show()
+```
 
 ---
 
