@@ -62,6 +62,28 @@ plt.show()
 ```
 
 - Histogram
+  ### Histogram (Matplotlib)
+
+**Description:**  
+A histogram shows the distribution of numerical data by grouping values into bins.
+
+**Use Case:**  
+Understanding data distribution such as exam scores, ages, or income ranges.
+
+**Code Example:**
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+data = np.random.randn(100)
+
+plt.hist(data, bins=10)
+plt.xlabel("Value")
+plt.ylabel("Frequency")
+plt.title("Simple Histogram")
+plt.show()
+```
+
 - Scatter Plot
 - Pie Chart
 
