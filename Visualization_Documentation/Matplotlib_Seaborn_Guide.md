@@ -85,11 +85,52 @@ plt.show()
 ```
 
 - Scatter Plot
+  ### Scatter Plot (Matplotlib)
+
+**Description:**  
+A scatter plot displays the relationship between two numerical variables using points.
+
+**Use Case:**  
+Analyzing relationships such as height vs weight or hours studied vs marks scored.
+
+**Code Example:**
+```python
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [5, 7, 4, 8, 6]
+
+plt.scatter(x, y)
+plt.xlabel("X values")
+plt.ylabel("Y values")
+plt.title("Simple Scatter Plot")
+plt.show()
+```
+
 - Pie Chart
 
 ---
 
 ## Seaborn
+### Pie Chart (Matplotlib)
+
+**Description:**  
+A pie chart represents data as portions of a whole, showing percentage distribution.
+
+**Use Case:**  
+Displaying market share, budget allocation, or time spent on activities.
+
+**Code Example:**
+```python
+import matplotlib.pyplot as plt
+
+labels = ["Python", "Java", "C++", "Others"]
+sizes = [40, 30, 20, 10]
+
+plt.pie(sizes, labels=labels, autopct="%1.1f%%")
+plt.title("Programming Language Usage")
+plt.show()
+```
 
 ### Overview
 Seaborn is a high-level visualization library built on top of Matplotlib. It provides attractive default styles and is mainly used for statistical data visualization.
