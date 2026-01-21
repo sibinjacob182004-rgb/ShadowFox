@@ -36,6 +36,7 @@ plt.xlabel("X values")
 plt.ylabel("Y values")
 plt.title("Simple Line Plot")
 plt.show()
+```
 
   
 ### Bar Chart (Matplotlib)
@@ -58,6 +59,7 @@ plt.xlabel("Categories")
 plt.ylabel("Values")
 plt.title("Simple Bar Chart")
 plt.show()
+```
 
 - Histogram
 - Scatter Plot
